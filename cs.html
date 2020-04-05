@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css notes</title>
+</head>
+<body style="background-color: #FFF0F5">
+	<h1 style="font-family: 'Sen', sans-serif;">CSS NOTES</h1>
+	<p style="font-family: 'Sen', sans-serif;">Style Sheets
+CSS stands for Cascading Style Sheets. They are used to describe all the style that will be applied to the various elements (tags) on the HTML page. In this context, the term style means all the color, fonts, and placement of pictures and content on the page. It does not refer to the content itself. You can think of style sheets as an over-arching style template for your Web pages.
+
+As shown in the static HTML vs. Dynamic HTML lecture, style or presentation is the look of the Web page, whereas the text or pictures on a page are the content. They are two separate things already. CSS makes a clear distinction between the two and literally separates one from the other.
+
+Style sheets come in three types:
+
+inline = style attributes are used inline with the HTML tags. For example:
+
+p style="color: red">When in the course...</p>
+
+This would style the paragraph red, but just this one paragraph on the page. Using this type of style sheet, you would have to individually style other p tags on the page if you also want those to be red. This is an inefficient style sheet concept.
+embedded (internal) = style information is in a <style> tag which is nested in the <head> tag of a single Web page. For example:
+
+style type="text/css">
+p {color: red;}
+/style>
+
+This would style all the paragraphs on this one Web page red. This is more powerful, but if you want to style all the p tags on your other Web pages using this model, then you'd have to add this code to them all. If your site contains hundreds of pages, this could take a while.
+linked (external) = the style is in one .css file that is linked to multiple Web pages. The link tag on the page is connected to the external file. For example:
+
+link rel="stylesheet" type="text/css" href="styles.css" />
+
+In a case like this, all the Web pages in an entire site -- and there could be dozens, hundreds, or thousands! -- could be linked to this one external style sheet file. If that file contained a selector that specified the p tag was red, all the p tags throughout all the pages of the site would be styled that color.
+
+In Web design, this is as powerful as it gets. Your goal is to make it so all of your pages can be connected to a style sheet that contains all the style rules for your site (all pages). In this case, if you want to make a change to all the pages, you just update the style rule in the one .css file, and -- voila! -- all the pages linked to it are automatically updated.
+Cascading
+The term cascading refers to which of these takes precedence when it comes to styling a page, a line, or any other element on the page. Usually, the closer to the HTML element, the more power it has. This means that inline style will trump embedded style which will trump linked style. However, the rules that are followed regarding precedence are long and complex, and inline style is not necessarily the best choice in most cases.
+ 
+The goal for most Web designers is to avoid using inline and embedded style, and move the style information to a separate .css file so that it can be linked to many Web pages. By linking multiple Web pages to one .css file, style changes can be made more quickly to the entire website.
+
+INSTRUCTOR NOTE:
+To understand why you would want to put all your style into a file that is separate from your Web pages, imagine this example:
+
+You are a Web designer at PCC and your boss asks you to change the background color of all the Web pages on PCC's website from blue ro yellow. There are over 2,000 Web pages on PCC's site! If you had to go through each page individually and change the color, this would take days, perhaps weeks of mind-numbing effort. But instead, if that one style property existed in a separate file that all the pages were linked to, then you'd only have to change that property in one place. It would take less than a minute. Therein lies the reason CSS was created in the first place.
+
+Read more from CSS Tutorial, but do not need to turn in anything.
+ 
+
+</p>
+
+</body>
+</html>

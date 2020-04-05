@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+
+}
+
+
+
+.first{
+	
+	background-image: linear-gradient(rgb(223, 230, 233),rgb(189, 195, 199));
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+
+.second{
+	background-color:#FFF0F5; 
+	position: relative;
+	margin-bottom: 0;
+}
+
+.third{
+	background-color: #ffffb3;
+}
+
+h1{
+	margin-top: 0;
+	font-family: 'Pacifico', cursive; 
+	display: inline-block;
+	position: absolute;
+	left: 35%;
+	top:40%;
+	font-size: 270%;
+	padding-left: 2%;
+}
+
+
+
+.logo{
+	position: absolute;
+	left: 30%;
+	top: 42%;
+}
+
+.para{
+	font-family:'Sen', sans-serif; 
+	display: inline-block;
+	font-size: 200%;
+	position: absolute;
+	left: 45%;
+	top:50%;
+}
+
+h2{
+	margin-top: 0;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-size: 270%;
+	padding-top: 8%;
+	padding-left: 2%;
+	font-weight: normal;
+
+}
+
+.log{
+	position: absolute;
+	left: 38%;
+	top: 20%;
+
+
+}
+.ni{
+	display:inline-block;
+	padding-left: 2px;
+}
+.nii{
+	padding-left: 5%
+}
+.parag{
+	font-stretch: 5px;
+	padding-left: 5px;
+
+
+}
+.ii {
+	padding-left: 5%;
+}
+
+.iij {
+	padding-left: 5%;
+}
+
+.con{
+	display: inline-block;
+	padding: 0;
+	margin-left: 37%;
+}
+.conta{
+	position: relative;
+	left: 37%;
+	margin-top: 2%;
+	padding-right: 0;
+ 
+}
+.iq{
+
+	padding-right: 12%;
+
+
+
+}
+
+.acct{
+	font-family: 'Sen', sans-serif;
+}
+.dig{
+	margin-bottom: 0;
+}
+footer{
+	padding-left: 30%;
+}
+
+	
